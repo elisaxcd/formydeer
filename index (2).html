@@ -2121,7 +2121,7 @@ function updateHUD(){
   if(!levelData) return;
   $('hudLevel').textContent = 'Level ' + curLevel;
   $('hudName').textContent = levelInfo(curLevel).name;
-  $('hudIcon').textContent = levelData.egg ? '🥚' : '🥕';
+  $('hudIcon').textContent = levelData.egg ? '🥚' : '🥕'; 
   $('hudCarrots').textContent = levelCarrots + '/' + levelData.total;
   $('hudFalls').textContent = levelDeaths;
 }
