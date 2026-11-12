@@ -1,0 +1,16 @@
+{
+  "name": "Bunny hop!",
+  "short_name": "Bunny Hop",
+  "description": "Hop a white pixel bunny across floating islands in 10 levels.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#86cdf9",
+  "theme_color": "#86cdf9",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
